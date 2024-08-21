@@ -40,6 +40,7 @@ You can run them with:
 cd build
 ctest
 ```
+If you want to disable building the tests, you can use `-DBUILD_tests=OFF` as the CMake option.
 
 ### Notes for `clangd` users
 If you want to contribute to it, or develop on it, you should let `clangd` know about it, by doing:
