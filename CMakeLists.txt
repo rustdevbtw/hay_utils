@@ -31,8 +31,8 @@ target_link_libraries(${LIBRARY_NAME} PRIVATE m)
 # Set the version for shared libraries
 if(SHARED_utils)
     set_target_properties(${LIBRARY_NAME} PROPERTIES
-        VERSION 1.0
-        SOVERSION 1
+        VERSION 0.0.1
+        SOVERSION 0
     )
 endif()
 
@@ -64,3 +64,5 @@ if(BUILD_tests)
         add_test(NAME ${test_name} COMMAND ${test_name})
     endforeach()
 endif()
+
+install(FILES man/hay_utils.3 DESTINATION share/man/man3)
