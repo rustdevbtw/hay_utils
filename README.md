@@ -27,7 +27,7 @@ You can generate the manpage, by modifying the `man/hay_utils.md` file.
 Once you're done, you'll need `ronn` (`ronn-ng` recommended).  
 You can generate them with:
 ```sh
-ronn --roff man/hay_utils.md --manual=hay/utils.h --organization="Hay Foundation"
+ronn --roff man/hay_utils.md --manual=hay/utils.h --organization="The Hay Project"
 ```
 You don't always have to do this, though. Every push to `master` automatically triggers a test CI.  
 Among testing, it also generates this manpage.

@@ -132,7 +132,7 @@ In these examples:
 errno(3), strerror(3), sprintf(3)
 
 ## AUTHOR
-Written by Hay Foundation. Contributions and feedback can be directed to <nobody@rajdeepm.xyz>.
+Written by The Hay Project. Contributions and feedback can be directed to <nobody@rajdeepm.xyz>.
 
 ## COPYRIGHT
 This manpage is released under the **Mozilla Public License, version 2.0** License.
